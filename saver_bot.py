@@ -19,7 +19,7 @@
         LOG_LEVEL - уровень логирования
 
 Версия 1.0
-Автор @SoloMen
+Автор @SoloMen88
 """
 import configparser
 import logging
