@@ -9,10 +9,11 @@
 Настройки в файле settings.ini:
         DEL_MSG - удалять принятое сообщение после его сохранения
         DIFFERENT_DIR - сохранять принятые данные в одной папке с разделением
-        по пользователям: set_dir-/-user1-/-photo
-                                  /       /-txt etc..
-                                  /-user2-/-photo
-                                          /-txt etc..
+        по пользователям: set_dir-|-user1-|-photo
+                                  |       |-txt etc..
+                                  |
+                                  |-user2-|-photo
+                                          |-txt etc..
         либо можно каждому пользователю задать свой путь.
         WORK_DIR - папка куда сохранять данные если DIFFERENT_DIR == False
         TOKEN - токен от бота
